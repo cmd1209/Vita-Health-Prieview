@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vita Health preview
 
-## Getting Started
+A small React + CSS kitchen-sink for checking the design in a browser before rebuilding it in WordPress.
 
-First, run the development server:
+Run `npm install`, then `npm run dev` and open http://localhost:3000.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `app/page.tsx`: button examples.
+- `app/globals.css`: CSS imports, reset, and preview layout.
+- `components/Button.tsx`: native button props plus `variant` and optional decorative `icon`.
+- `styles/tokens.css`: existing Vita token values and clearly marked preview layout values.
+- `styles/button.css`: button geometry and default, hover, active, focus, and disabled styles.
+- `app/layout.tsx`: required Next.js document wrapper.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The default variant is `primary`; alternatives are `secondary` and `highlight`. Use the native `disabled` prop. Buttons default to `type="button"`; pass `type="submit"` when needed. Event handlers can be passed from a React client component.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The existing DM Sans and DM Serif Display font-family tokens are preserved. No font files were supplied, so browsers use the declared fallback unless those fonts are installed. The arrow in the preview is a placeholder icon, not a Figma asset.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Only the preview layout uses the `--preview-*` tokens. No speculative breakpoints or additional component variants are included. For WordPress, reuse the CSS files and the same button classes on native HTML buttons.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Checks: `npm run lint`, `npx tsc --noEmit`, and `npm run build`.

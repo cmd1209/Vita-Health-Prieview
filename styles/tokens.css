@@ -1,0 +1,58 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+    /* Fonts */
+  --font-sans: "DM Sans", sans-serif;
+  --font-serif: "DM Serif Display", serif;
+
+  /* Button geometry */
+  --button-gap: 8px;
+  --button-padding-x: 24px;
+  --button-padding-y: 12px;
+
+  --button-radius-tl: 0px;
+  --button-radius-tr: 12px;
+  --button-radius-br: 0px;
+  --button-radius-bl: 12px;
+
+  /* Button typography */
+  --button-font-size: 14px;
+  --button-line-height: 20px;
+  --button-font-weight: 500;
+
+  /* Primary */
+  --action-primary: #0B382D;
+  --action-primary-hover: #04120F;
+  --action-primary-active: #04120F;
+  --action-primary-label: #FFFFFF;
+
+  /* Secondary */
+  --action-secondary: #4C7E64;
+  --action-secondary-hover: #325342;
+  --action-secondary-active: #192A21;
+  --action-secondary-label: #FFFFFF;
+
+  /* Highlight */
+  --action-highlight: #D5C7FF;
+  --action-highlight-hover: #786AA5;
+  --action-highlight-active: #786AA5;
+  --action-highlight-label: #04120F;
+  --action-highlight-label-inverse: #FFFFFF;
+
+  /* Disabled */
+  --action-disabled: #D0D0D0;
+  --action-disabled-label: #FFFFFF;
+
+  /* Focus */
+  --border-focus: #D5C7FF;
+
+  /* Preview layout only; not additional Figma component tokens. */
+  --preview-width: 1152px;
+  --preview-spacing: 24px;
+  --preview-section-spacing: 48px;
+  --preview-font-size: 16px;
+  --preview-line-height: 1.5;
+  --preview-title-size: 36px;
+  --preview-heading-size: 24px;
+}
