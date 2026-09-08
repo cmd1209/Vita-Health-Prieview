@@ -27,55 +27,69 @@
     color 160ms ease;
 }
 
+
+/*Primary*/
+
 .button--primary {
-  background: var(--action-primary);
-  color: var(--action-primary-label);
+  background: var(--color-action-primary-background);
+  color: var(--color-action-primary-label);
 }
 
 .button--primary:hover:not(:disabled) {
-  background: var(--action-primary-hover);
-}
-
-.button--secondary {
-  background: var(--action-secondary);
-  color: var(--action-secondary-label);
-}
-
-.button--secondary:hover:not(:disabled) {
-  background: var(--action-secondary-hover);
-}
-
-.button--highlight {
-  background: var(--action-highlight);
-  color: var(--action-highlight-label);
-}
-
-.button--highlight:hover:not(:disabled) {
-  background: var(--action-highlight-hover);
-  color: var(--action-highlight-label-inverse);
-}
-
-.button:disabled {
-  background: var(--action-disabled);
-  color: var(--action-disabled-label);
-  cursor: not-allowed;
+  background: var(--color-action-primary-hover);
 }
 
 .button--primary:active:not(:disabled) {
-  background: var(--action-primary-active);
+  background: var(--color-action-primary-active);
+}
+
+
+/*Secondary*/
+
+.button--secondary {
+  background: var(--color-action-secondary-background);
+  color: var(--color-action-secondary-label);
+}
+
+.button--secondary:hover:not(:disabled) {
+  background: var(--color-action-secondary-hover);
 }
 
 .button--secondary:active:not(:disabled) {
-  background: var(--action-secondary-active);
+  background: var(--color-action-secondary-active);
+}
+
+
+/*Highlight*/
+
+.button--highlight {
+  background: var(--color-action-highlight-background);
+  color: var(--color-action-highlight-label);
+}
+
+.button--highlight:hover:not(:disabled) {
+  background: var(--color-action-highlight-hover);
+  color: var(--color-action-highlight-label-inverse);
 }
 
 .button--highlight:active:not(:disabled) {
-  background: var(--action-highlight-active);
-  color: var(--action-highlight-label-inverse);
+  background: var(--color-action-highlight-active);
+  color: var(--color-action-highlight-label-inverse);
 }
 
+
+/* Disabled */
+
+.button:disabled {
+  background: var(--color-action-disabled-background);
+  color: var(--color-action-disabled-label);
+  cursor: not-allowed;
+}
+
+/* Focus */
+
 .button:focus-visible {
-  outline: 2px solid var(--border-focus);
+  outline: 2px solid var(--color-border-focus);
   outline-offset: 2px;
 }
 

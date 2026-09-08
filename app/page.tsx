@@ -1,11 +1,12 @@
 import Buttons from "./pages/buttons";
 import Typography from "./pages/typography";
+import Colors from "./pages/colors";
 
 export default function Home() {
   return (
     <main className="mx-auto max-w-[var(--preview-width)] px-5 py-10 sm:px-8 sm:py-16">
       <header className="mb-10 border-b border-zinc-200 pb-10">
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--action-primary)]">
+        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-accent-primary)]">
           Vita Health / Design system
         </p>
         <div className="flex flex-wrap items-end justify-between gap-6">
@@ -23,9 +24,12 @@ export default function Home() {
 
       <nav aria-label="Preview sections" className="sticky top-4 z-10 mb-8 flex flex-wrap items-center gap-2 rounded-xl border border-zinc-200 bg-white/95 p-2 shadow-sm backdrop-blur">
         <span className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-500">Sections</span>
-        <a href="#typography" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]">Typography</a>
-        <a href="#buttons" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--border-focus)]">Buttons</a>
+        <a href="#colors" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Colors</a>
+        <a href="#typography" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Typography</a>
+        <a href="#buttons" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Buttons</a>
       </nav>
+
+      <Colors />
 
       <Typography />
 

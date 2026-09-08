@@ -45,6 +45,159 @@
   --letter-spacing-wider: 0.08em;
 
 
+  /* =========================================================
+     COLOR — NAMED
+     ========================================================= */
+
+  --color-named-mint-tea: #E6F2DA;
+  --color-named-evergreen: #0B382D;
+  --color-named-coral-glow: #FF8C73;
+  --color-named-jungle-teal: #4C7E64;
+  --color-named-ivory: #FFFFF4;
+  --color-named-shiny-lavender: #D5C7FF;
+
+
+  /* =========================================================
+     COLOR — BRAND
+     ========================================================= */
+
+  /* Primary */
+  --color-brand-primary-100: #AFBDBA;
+  --color-brand-primary-300: #5E7C74;
+  --color-brand-primary-500: var(--color-named-evergreen);
+  --color-brand-primary-700: #07251E;
+  --color-brand-primary-900: #04120F;
+
+  /* Secondary */
+  --color-brand-secondary-100: #C4D4CC;
+  --color-brand-secondary-300: #89AA99;
+  --color-brand-secondary-500: var(--color-named-jungle-teal);
+  --color-brand-secondary-700: #325342;
+  --color-brand-secondary-900: #192A21;
+
+  /* Soft */
+  --color-brand-soft-100: #FAFCF8;
+  --color-brand-soft-500: var(--color-named-mint-tea);
+  --color-brand-soft-900: #959D8E;
+
+  /* Warm */
+  --color-brand-warm-100: #FFD9D1;
+  --color-brand-warm-300: #FFB3A3;
+  --color-brand-warm-500: var(--color-named-coral-glow);
+  --color-brand-warm-700: #A85C4C;
+  --color-brand-warm-900: #542E26;
+
+  /* Cool */
+  --color-brand-cool-100: #F4F1FF;
+  --color-brand-cool-500: var(--color-named-shiny-lavender);
+  --color-brand-cool-900: #786AA5;
+
+  /* Light */
+  --color-brand-light-100: #FFFFFA;
+  --color-brand-light-500: var(--color-named-ivory);
+
+  /* Neutral */
+  --color-brand-neutral-0: #FFFFFF;
+  --color-brand-neutral-300: #D0D0D0;
+  --color-brand-neutral-500: #868686;
+  --color-brand-neutral-700: #414141;
+  --color-brand-neutral-1000: #000000;
+
+
+  /* =========================================================
+     COLOR — SEMANTIC
+     ========================================================= */
+
+  /* Background */
+  --color-background-default: var(--color-brand-light-500);
+  --color-background-white: var(--color-brand-neutral-0);
+  --color-background-subtle: var(--color-brand-soft-100);
+  --color-background-brand: var(--color-brand-primary-700);
+  --color-background-inverse: var(--color-brand-primary-900);
+  --color-background-highlight: var(--color-brand-cool-100);
+
+  /* Surface */
+  --color-surface-default: var(--color-brand-neutral-0);
+  --color-surface-subtle: var(--color-brand-soft-100);
+  --color-surface-elevated: var(--color-brand-neutral-0);
+  --color-surface-brand: var(--color-brand-secondary-500);
+  --color-surface-inverse: var(--color-brand-primary-900);
+
+  /* Text */
+  --color-text-brand: var(--color-brand-primary-500);
+  --color-text-default: var(--color-brand-neutral-1000);
+  --color-text-disabled: var(--color-brand-neutral-300);
+  --color-text-inverse: var(--color-brand-neutral-0);
+  --color-text-link: var(--color-brand-primary-500);
+  --color-text-muted: var(--color-brand-neutral-700);
+  --color-text-subtle: var(--color-brand-neutral-500);
+
+  /* Accent */
+  --color-accent-primary: var(--color-brand-primary-500);
+  --color-accent-primary-hover: var(--color-brand-primary-700);
+  --color-accent-secondary: var(--color-brand-secondary-500);
+  --color-accent-warm: var(--color-brand-warm-500);
+  --color-accent-cool: var(--color-brand-cool-500);
+
+
+  /* =========================================================
+     SEMANTIC — ACTION
+     ========================================================= */
+
+  /* Primary */
+  --color-action-primary-background: var(--color-brand-primary-500);
+  --color-action-primary-label: var(--color-brand-neutral-0);
+  --color-action-primary-hover: var(--color-brand-primary-900);
+  --color-action-primary-active: var(--color-brand-primary-900);
+
+  /* Secondary */
+  --color-action-secondary-background: var(--color-brand-secondary-500);
+  --color-action-secondary-label: var(--color-brand-neutral-0);
+  --color-action-secondary-hover: var(--color-brand-secondary-700);
+  --color-action-secondary-active: var(--color-brand-secondary-900);
+
+  /* Highlight */
+  --color-action-highlight-background: var(--color-brand-cool-500);
+  --color-action-highlight-label: var(--color-brand-primary-900);
+  --color-action-highlight-label-inverse: var(--color-brand-neutral-0);
+  --color-action-highlight-hover: var(--color-brand-cool-900);
+  --color-action-highlight-active: var(--color-brand-cool-900);
+
+  /* Disabled */
+  --color-action-disabled-background: var(--color-brand-neutral-300);
+  --color-action-disabled-label: var(--color-brand-neutral-0);
+
+
+  /* =========================================================
+     SEMANTIC — BORDER
+     ========================================================= */
+
+  --color-border-default: var(--color-brand-neutral-300);
+  --color-border-subtle: var(--color-brand-soft-100);
+  --color-border-strong: var(--color-brand-neutral-500);
+  --color-border-brand: var(--color-brand-primary-500);
+  --color-border-focus: var(--color-brand-cool-500);
+
+
+  /* =========================================================
+     SEMANTIC — STATUS
+     ========================================================= */
+
+  /* Success */
+  --color-status-success-foreground: var(--color-brand-primary-700);
+  --color-status-success-background: var(--color-brand-soft-500);
+
+  /* Warning */
+  --color-status-warning-foreground: var(--color-brand-warm-900);
+  --color-status-warning-background: var(--color-brand-warm-100);
+
+  /* Error */
+  --color-status-error-foreground: var(--color-brand-warm-900);
+  --color-status-error-background: var(--color-brand-warm-100);
+
+  /* Info */
+  --color-status-info-foreground: var(--color-brand-cool-900);
+  --color-status-info-background: var(--color-brand-cool-100);
 
 
   
@@ -63,31 +216,7 @@
   --button-line-height: 20px;
   --button-font-weight: 500;
 
-  /* Primary */
-  --action-primary: #0B382D;
-  --action-primary-hover: #04120F;
-  --action-primary-active: #04120F;
-  --action-primary-label: #FFFFFF;
 
-  /* Secondary */
-  --action-secondary: #4C7E64;
-  --action-secondary-hover: #325342;
-  --action-secondary-active: #192A21;
-  --action-secondary-label: #FFFFFF;
-
-  /* Highlight */
-  --action-highlight: #D5C7FF;
-  --action-highlight-hover: #786AA5;
-  --action-highlight-active: #786AA5;
-  --action-highlight-label: #04120F;
-  --action-highlight-label-inverse: #FFFFFF;
-
-  /* Disabled */
-  --action-disabled: #D0D0D0;
-  --action-disabled-label: #FFFFFF;
-
-  /* Focus */
-  --border-focus: #D5C7FF;
 
   /* Preview layout only; not additional Figma component tokens. */
   --preview-width: 1152px;
