@@ -1,7 +1,7 @@
 /* Color documentation layout; swatch fills come directly from Vita tokens. */
 @layer components {
   .color-card {
-    @apply scroll-mt-36 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm;
+    @apply scroll-mt-36 overflow-hidden bg-white shadow-sm;
   }
 
   .color-card__header {

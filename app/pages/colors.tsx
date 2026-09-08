@@ -199,7 +199,7 @@ const semanticGroups = [
 export default function Colors() {
   return (
     <section id="colors" aria-labelledby="colors-title" className="mb-12 scroll-mt-36">
-      <div className="mb-6">
+      <div className="mb-6 px-5 sm:px-8">
         <h2 id="colors-title" className="text-2xl font-semibold tracking-tight">Colors</h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-600">
           Named colors define the palette. Brand scales provide its shades. Semantic tokens assign those colors to a purpose—use these roles when styling components.

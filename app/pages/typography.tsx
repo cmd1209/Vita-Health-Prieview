@@ -3,12 +3,12 @@ import TypeRow from "../../components/TypeRow";
 export default function Typography() {
   return (
     <section id="typography" aria-labelledby="typography-title" className="mb-12 scroll-mt-36">
-        <div className="mb-6">
+        <div className="mb-6 px-5 sm:px-8">
           <h2 id="typography-title" className="text-2xl font-semibold tracking-tight">Typography</h2>
           <p className="mt-2 text-sm leading-relaxed text-zinc-600">The Vita Health type system, from display headings to supporting labels.</p>
         </div>
         <div className="space-y-6">
-          <article id="typography-display" aria-labelledby="type-display-title" className="scroll-mt-36 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+          <article id="typography-display" aria-labelledby="type-display-title" className="scroll-mt-36 overflow-hidden bg-white shadow-sm">
             <div className="flex items-center justify-between border-b border-zinc-100 px-6 py-4 sm:px-8">
               <h3 id="type-display-title" className="text-base font-semibold">Display</h3>
               <span className="text-xs text-zinc-500">Typography</span>
@@ -28,7 +28,7 @@ export default function Typography() {
               </TypeRow>
             </div>
           </article>
-          <article id="typography-quotes" aria-labelledby="type-quotes-title" className="scroll-mt-36 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+          <article id="typography-quotes" aria-labelledby="type-quotes-title" className="scroll-mt-36 overflow-hidden bg-white shadow-sm">
             <div className="flex items-center justify-between border-b border-zinc-100 px-6 py-4 sm:px-8">
               <h3 id="type-quotes-title" className="text-base font-semibold">Blockquotes</h3>
               <span className="text-xs text-zinc-500">Typography</span>
@@ -48,7 +48,7 @@ export default function Typography() {
               </TypeRow>
             </div>
           </article>
-          <article id="typography-headings" aria-labelledby="type-headings-title" className="scroll-mt-36 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+          <article id="typography-headings" aria-labelledby="type-headings-title" className="scroll-mt-36 overflow-hidden bg-white shadow-sm">
             <div className="flex items-center justify-between border-b border-zinc-100 px-6 py-4 sm:px-8">
               <h3 id="type-headings-title" className="text-base font-semibold">Headings</h3>
               <span className="text-xs text-zinc-500">Typography</span>
@@ -74,7 +74,7 @@ export default function Typography() {
               </TypeRow>
             </div>
           </article>
-          <article id="typography-body" aria-labelledby="type-body-title" className="scroll-mt-36 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+          <article id="typography-body" aria-labelledby="type-body-title" className="scroll-mt-36 overflow-hidden bg-white shadow-sm">
             <div className="flex items-center justify-between border-b border-zinc-100 px-6 py-4 sm:px-8">
               <h3 id="type-body-title" className="text-base font-semibold">Body &amp; lead</h3>
               <span className="text-xs text-zinc-500">Typography</span>
@@ -94,7 +94,7 @@ export default function Typography() {
               </TypeRow>
             </div>
           </article>
-          <article id="typography-labels" aria-labelledby="type-labels-title" className="scroll-mt-36 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm">
+          <article id="typography-labels" aria-labelledby="type-labels-title" className="scroll-mt-36 overflow-hidden bg-white shadow-sm">
             <div className="flex items-center justify-between border-b border-zinc-100 px-6 py-4 sm:px-8">
               <h3 id="type-labels-title" className="text-base font-semibold">Labels &amp; eyebrow</h3>
               <span className="text-xs text-zinc-500">Typography</span>

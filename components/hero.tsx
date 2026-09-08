@@ -10,6 +10,8 @@ export default function Hero() {
         muted
         loop
         playsInline
+        aria-hidden="true"
+        preload="metadata"
       >
         <source src="/video/image-film-800x550.mp4" type="video/mp4" />
       </video>
