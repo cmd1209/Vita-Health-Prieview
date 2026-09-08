@@ -20,3 +20,9 @@ Only the preview layout uses the `--preview-*` tokens. No speculative breakpoint
 Checks: `npm run lint`, `npx tsc --noEmit`, and `npm run build`.
 
 Tailwind styles the preview layout, headings, and cards. Vita buttons remain plain CSS in `styles/button.css`, with no Tailwind classes in the Button component. Setup follows the [Tailwind Next.js guide](https://tailwindcss.com/docs/installation/framework-guides/nextjs).
+
+## Preview sections
+
+Section previews live in `app/pages/typography.tsx` and `app/pages/buttons.tsx`. Reusable UI stays in `components/Button.tsx` and `components/TypeRow.tsx`. The folder is inside `app` because a root-level `pages/` folder would enable Next.js Pages Router routes.
+
+`app/page.tsx` assembles the preview and its sticky section menu. To add a section, give its outer section a unique `id` and `scroll-mt-28`, render it in the page, and add a matching `href="#section-id"` to the menu. Clients can bookmark or share `/#typography` and `/#buttons` on the deployed preview.
