@@ -1,3 +1,4 @@
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Button from "../components/Button";
 
 export default function Home() {
@@ -28,16 +29,16 @@ export default function Home() {
 
         <h3>With an icon</h3>
         <div className="button-examples">
-          <Button iconLeft="←" iconRight="→" >Primary Button</Button>
-          <Button size="small" iconRight="→" iconLeft="←" >Small Button</Button>
+          <Button iconLeft={<ChevronLeft />} iconRight={<ChevronRight />} >Primary Button</Button>
+          <Button size="small" iconRight={<ChevronRight />} iconLeft={<ChevronLeft />} >Small Button</Button>
         </div>
         <div className="button-examples">
-          <Button variant="secondary" iconLeft="←" iconRight="→">Small Secondary Button</Button>
-          <Button size="small" variant="secondary" iconLeft="←" iconRight="→">Small Secondary Button</Button>
+          <Button variant="secondary" iconLeft={<ChevronLeft />} iconRight={<ChevronRight />}>Small Secondary Button</Button>
+          <Button size="small" variant="secondary" iconLeft={<ChevronLeft />} iconRight={<ChevronRight />}>Small Secondary Button</Button>
         </div>
         <div className="button-examples">
-          <Button variant="highlight" iconLeft="←" iconRight="→">Highlight Button</Button>
-          <Button size="small" variant="highlight" iconLeft="←" iconRight="→">Small Highlight Button</Button>
+          <Button variant="highlight" iconLeft={<ChevronLeft />} iconRight={<ChevronRight />}>Highlight Button</Button>
+          <Button size="small" variant="highlight" iconLeft={<ChevronLeft />} iconRight={<ChevronRight />}>Small Highlight Button</Button>
         </div>
 
 

@@ -84,6 +84,11 @@
   flex-shrink: 0;
 }
 
+.button__icon svg {
+  width: 1lh;
+  height: 1lh;
+}
+
 .button--small {
   padding: 12px 24px;
   gap: 8px;
