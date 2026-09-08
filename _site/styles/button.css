@@ -110,14 +110,3 @@
   line-height: 16px;
   border-radius: 999px;
 }
-
-/* Use the small button appearance at the same mobile breakpoint as the hero. */
-@media (max-width: 768px) {
-  .button {
-    padding: 12px 24px;
-    gap: 8px;
-    font-size: 12px;
-    line-height: 16px;
-    border-radius: 999px;
-  }
-}

@@ -5,7 +5,7 @@ import Components from "./pages/components";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[var(--preview-width)] py-10 sm:py-16">
+    <main className="mx-auto max-w-[var(--preview-width)] px-5 py-10 sm:px-8 sm:py-16">
       <header className="mb-10 border-b border-zinc-200 pb-10">
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-accent-primary)]">
           Vita Health / Design system

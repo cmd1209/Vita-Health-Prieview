@@ -1,0 +1,29 @@
+/* Starter styles for the hero component. */
+.hero {
+  padding: clamp(24px, 6vw, 64px);
+  background: var(--color-background-default);
+  color: var(--color-text-brand);
+}
+
+.hero__eyebrow {
+  margin: 0 0 16px;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wider);
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.hero__description {
+  max-width: 40rem;
+  margin: 24px 0 0;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
