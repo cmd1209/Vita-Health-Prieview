@@ -23,9 +23,17 @@ export default function Button({
       className={`button button--${variant} button--${size} ${className}`.trim()}
       {...props}
       >
-      {iconLeft && <span className="button__icon" aria-hidden="true">{iconLeft}</span>}
+      {iconLeft &&
+        <span className="button__icon" aria-hidden="true">
+          {iconLeft}
+        </span>}
+
       {children}
-      {iconRight && <span className="button__icon" aria-hidden="true">{iconRight}</span>}
+
+      {iconRight &&
+        <span className="button__icon" aria-hidden="true">
+          {iconRight}
+        </span>}
     </button>
   );
 }

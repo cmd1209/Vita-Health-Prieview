@@ -1,53 +1,11 @@
+@import "tailwindcss";
 @import "../styles/tokens.css";
 @import "../styles/button.css";
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  background: var(--background);
+  background: var(--preview-background);
   color: var(--foreground);
   font-family: var(--font-sans);
   font-size: var(--preview-font-size);
   line-height: var(--preview-line-height);
-}
-
-h1, h2, h3, p {
-  margin: 0;
-}
-
-h1 {
-  font-size: var(--preview-title-size);
-}
-
-h2 {
-  font-size: var(--preview-heading-size);
-}
-
-h3 {
-  font-size: var(--preview-font-size);
-}
-
-.preview {
-  max-width: var(--preview-width);
-  margin: 0 auto;
-  padding: var(--preview-section-spacing) var(--preview-spacing);
-}
-
-.preview header,
-.preview section {
-  display: grid;
-  gap: var(--preview-spacing);
-}
-
-.preview section {
-  margin-top: var(--preview-section-spacing);
-}
-
-.button-examples {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--preview-spacing);
 }

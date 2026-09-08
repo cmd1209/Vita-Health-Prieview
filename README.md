@@ -4,8 +4,8 @@ A small React + CSS kitchen-sink for checking the design in a browser before reb
 
 Run `npm install`, then `npm run dev` and open http://localhost:3000.
 
-- `app/page.tsx`: button examples.
-- `app/globals.css`: CSS imports, reset, and preview layout.
+- `app/page.tsx`: button examples, with Tailwind utilities for presentation only.
+- `app/globals.css`: Tailwind and Vita CSS imports, plus page defaults.
 - `components/Button.tsx`: native button props plus `variant`, `size`, and optional decorative `iconLeft` / `iconRight`.
 - `styles/tokens.css`: existing Vita token values and clearly marked preview layout values.
 - `styles/button.css`: button geometry and default, hover, active, focus, and disabled styles.
@@ -18,3 +18,5 @@ The existing DM Sans and DM Serif Display font-family tokens are preserved. No f
 Only the preview layout uses the `--preview-*` tokens. No speculative breakpoints or additional component variants are included. For WordPress, reuse the CSS files and the same button classes on native HTML buttons.
 
 Checks: `npm run lint`, `npx tsc --noEmit`, and `npm run build`.
+
+Tailwind styles the preview layout, headings, and cards. Vita buttons remain plain CSS in `styles/button.css`, with no Tailwind classes in the Button component. Setup follows the [Tailwind Next.js guide](https://tailwindcss.com/docs/installation/framework-guides/nextjs).
