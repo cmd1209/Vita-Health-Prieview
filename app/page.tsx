@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </header>
 
-      <nav aria-label="Preview sections" className="preview-sections-nav sticky z-10 mb-8 flex flex-wrap items-center gap-2 bg-white/95 p-2 shadow-sm backdrop-blur">
+      <nav aria-label="Preview sections" className="preview-sections-nav z-10 mb-8 flex flex-wrap items-center gap-2 bg-white/95 p-2 shadow-sm backdrop-blur">
         <span className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-500">Sections</span>
         <a href="#colors" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Colors</a>
         <a href="#typography" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Typography</a>

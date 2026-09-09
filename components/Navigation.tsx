@@ -30,6 +30,7 @@ export default function Navigation() {
 
   return (
     <header className={`navigation${isScrolled ? " navigation--sticky" : ""}`}>
+      <div className="navigation__wrapper">
       <VitaLogo />
       <nav className="navigation__links" aria-label="Main navigation">
         {links.map((link) => (
@@ -44,6 +45,7 @@ export default function Navigation() {
       <button className="navigation__menu" type="button" aria-label="Open menu">
         <img src={menuIcon} alt="" />
       </button>
+      </div>
     </header>
   );
 }

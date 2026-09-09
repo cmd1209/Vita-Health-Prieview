@@ -2,15 +2,18 @@
   position: sticky;
   top: 0;
   z-index: 20;
+  padding: 20px clamp(20px, 7vw, 96px);
+  height: 116px;
+  min-height: 116px;
+  background: var(--color-background-default-T85);
+}
+.navigation__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: min(100%, 1440px);
-  height: 116px;
-  min-height: 116px;
   margin: 0 auto;
-  padding: 20px clamp(20px, 7vw, 96px);
-  background: var(--color-background-default-T85);
+
   transition: min-height 180ms ease, padding 180ms ease, box-shadow 180ms ease;
 }
 
