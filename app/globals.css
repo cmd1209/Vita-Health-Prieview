@@ -8,6 +8,7 @@
 @import "../styles/typo.css";
 @import "../styles/hero.css";
 @import "../styles/contact.css";
+@import "../styles/navigation.css";
 
 body {
   background: var(--preview-background);

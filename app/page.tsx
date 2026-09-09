@@ -2,10 +2,13 @@ import Buttons from "./pages/buttons";
 import Typography from "./pages/typography";
 import Colors from "./pages/colors";
 import Components from "./pages/components";
+import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[var(--preview-width)] py-10 sm:py-16">
+    <>
+      <Navigation />
+      <main className="mx-auto max-w-[var(--preview-width)] py-10 sm:py-16">
       <header className="mb-10 border-b border-zinc-200 pb-10 px-5 sm:px-8">
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-accent-primary)]">
           Vita Health / Design system
@@ -23,7 +26,7 @@ export default function Home() {
         </div>
       </header>
 
-      <nav aria-label="Preview sections" className="sticky top-4 z-10 mb-8 flex flex-wrap items-center gap-2 bg-white/95 p-2 shadow-sm backdrop-blur">
+      <nav aria-label="Preview sections" className="preview-sections-nav sticky z-10 mb-8 flex flex-wrap items-center gap-2 bg-white/95 p-2 shadow-sm backdrop-blur">
         <span className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-500">Sections</span>
         <a href="#colors" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Colors</a>
         <a href="#typography" className="rounded-lg px-4 py-3 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-border-focus)]">Typography</a>
@@ -42,6 +45,7 @@ export default function Home() {
       <footer className="mt-10 text-xs leading-relaxed text-zinc-500 px-5 sm:px-8">
         Vita Health · Component kitchen-sink
       </footer>
-    </main>
+      </main>
+    </>
   );
 }

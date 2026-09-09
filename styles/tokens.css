@@ -183,6 +183,12 @@
   --color-background-brand: var(--color-brand-primary-700);
   --color-background-inverse: var(--color-brand-primary-900);
   --color-background-highlight: var(--color-brand-cool-100);
+  
+ --color-background-default-T85: color-mix(
+  in srgb,
+  var(--color-brand-light-500) 85%,
+  transparent
+);
 
   /* Surface */
   --color-surface-default: var(--color-brand-neutral-0);
