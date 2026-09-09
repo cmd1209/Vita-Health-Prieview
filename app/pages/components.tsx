@@ -1,4 +1,5 @@
 import Hero from "../../components/hero";
+import Contact from "../../components/Contact";
 
 export default function Components() {
   return (
@@ -13,6 +14,13 @@ export default function Components() {
           <h3 id="hero-preview-title" className="text-base font-semibold">Hero</h3>
         </div>
         <Hero />
+      </article>
+
+      <article id="components-contact" aria-labelledby="contact-preview-title" className="mt-8 scroll-mt-36 overflow-hidden bg-white shadow-sm">
+        <div className="border-b border-zinc-100 px-6 py-4 sm:px-8">
+          <h3 id="contact-preview-title" className="text-base font-semibold">Contact</h3>
+        </div>
+        <Contact />
       </article>
     </section>
   );

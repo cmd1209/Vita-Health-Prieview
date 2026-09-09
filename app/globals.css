@@ -7,6 +7,7 @@
 @import "../styles/button.css";
 @import "../styles/typo.css";
 @import "../styles/hero.css";
+@import "../styles/contact.css";
 
 body {
   background: var(--preview-background);
