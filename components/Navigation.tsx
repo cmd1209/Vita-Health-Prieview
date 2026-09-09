@@ -13,7 +13,6 @@ function VitaLogo() {
   return (
     <span className="navigation__logo" aria-label="Vita Health Media">
       <img className="navigation__logo--large" src="/logo-vita-l.svg" alt="" />
-      <img className="navigation__logo--medium" src="/logo-vita-m.svg" alt="" />
       <img className="navigation__logo--small" src="/logo-vita-xs.svg" alt="" />
     </span>
   );
