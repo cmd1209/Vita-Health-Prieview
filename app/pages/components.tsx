@@ -1,6 +1,7 @@
 import Hero from "../../components/hero";
 import Contact from "../../components/Contact";
 import Navigation from "../../components/Navigation";
+import Footer from "../../components/Footer";
 
 export default function Components() {
   return (
@@ -29,6 +30,13 @@ export default function Components() {
           <h3 id="navigation-preview-title" className="text-base font-semibold">Navigation</h3>
         </div>
         <Navigation />
+      </article>
+
+      <article id="components-footer" aria-labelledby="footer-preview-title" className="mt-8 scroll-mt-36 overflow-hidden bg-white shadow-sm">
+        <div className="border-b border-zinc-100 px-6 py-4 sm:px-8">
+          <h3 id="footer-preview-title" className="text-base font-semibold">Footer</h3>
+        </div>
+        <Footer />
       </article>
     </section>
   );
