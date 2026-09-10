@@ -33,7 +33,7 @@
   }
 
   .color-grid {
-    @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3;
+    @apply grid gap-6 sm:grid-cols-3 lg:grid-cols-4;
   }
 
   .color-swatch {
