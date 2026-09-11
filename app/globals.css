@@ -12,6 +12,7 @@
 @import "../styles/footer.css";
 @import "../styles/quote.css";
 @import "../styles/leistung.css";
+@import "../styles/project-slider.css";
 
 body {
   background: var(--preview-background);
