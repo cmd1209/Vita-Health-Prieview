@@ -3,6 +3,7 @@ import Contact from "../../components/Contact";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import Quote from "../../components/Quote";
+import Leistung from "../../components/Leistung";
 
 export default function Components() {
   return (
@@ -24,6 +25,13 @@ export default function Components() {
           <h3 id="contact-preview-title" className="text-base font-semibold">Contact</h3>
         </div>
         <Contact />
+      </article>
+
+      <article id="components-leistung" aria-labelledby="leistung-preview-title" className="mt-8 scroll-mt-36 overflow-hidden bg-white shadow-sm">
+        <div className="border-b border-zinc-100 px-6 py-4 sm:px-8">
+          <h3 id="leistung-preview-title" className="text-base font-semibold">Leistung</h3>
+        </div>
+        <Leistung />
       </article>
 
       <article id="components-navigation" aria-labelledby="navigation-preview-title" className="mt-8 scroll-mt-36 overflow-hidden bg-white shadow-sm">
