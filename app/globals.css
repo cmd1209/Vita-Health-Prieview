@@ -13,6 +13,7 @@
 @import "../styles/quote.css";
 @import "../styles/leistung.css";
 @import "../styles/project-slider.css";
+@import "../styles/partner-logos.css";
 
 body {
   background: var(--preview-background);
