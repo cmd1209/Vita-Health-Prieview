@@ -35,7 +35,7 @@
 .partner-logos__item {
   display: grid;
   width: 150px;
-  height: auto
+  height: auto;
   flex: 0 0 150px;
   place-items: center;
 }
