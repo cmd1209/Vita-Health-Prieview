@@ -13,7 +13,7 @@ export default function Hero() {
         aria-hidden="true"
         preload="metadata"
       >
-        <source src="/video/260915_Vita_Moods_Homepage.mp4" type="video/mp4" />
+        <source src="/video/260917_Vita_Moods_Homepage.mp4" type="video/mp4" />
       </video>
 
       <div className="hero__overlay" />
